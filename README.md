@@ -12,6 +12,7 @@ Repositóri novo:
 
 Repositório já clonado:
 * git pull
+* ...programa/altera
 * git status 
 * git add --all
 * git commit -m "mensagem"
