@@ -1,5 +1,6 @@
 project(AB)
 SET (CMAKE_C_COMPILER "${DEVROOT}/usr/bin/clang")
 add_library(AB a.c b.c)
+#add_library(AB SHARED a.c b.c)
 add_executable(test main.c)
-target_link_libraries (test AB)
+target_link_libraries(test AB)
