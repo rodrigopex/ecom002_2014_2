@@ -1,0 +1,5 @@
+project(Jansson101)
+SET (CMAKE_C_COMPILER "${DEVROOT}/usr/bin/clang")
+add_executable(test main.c drawing.c storage.c)
+target_link_libraries(test jansson)
+target_link_libraries(test cairo)
